@@ -1,8 +1,8 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 </head>
-<body>
+<body class="aside-open">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content" style="height: 200px;">
+    <main id="content" style="height: 2000px;">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-6">
