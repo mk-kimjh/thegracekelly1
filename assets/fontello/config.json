@@ -65,6 +65,12 @@
       "css": "up-open",
       "code": 61445,
       "src": "mfglabs"
+    },
+    {
+      "uid": "44e04715aecbca7f266a17d5a7863c68",
+      "css": "plus",
+      "code": 59395,
+      "src": "fontawesome"
     }
   ]
 }

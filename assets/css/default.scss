@@ -1,35 +1,7 @@
-@import 'https://fonts.googleapis.com/css?family=Crimson+Text|Lato|Maven+Pro';
+@import 'common';
+
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Lato|Maven+Pro:400,700);
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-
-$xs: "320px";
-$sm: "768px";
-$md: "992px";
-$lg: "1280px";
-
-@mixin noto() {
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-@mixin lato() {
-    font-family: 'Lato', sans-serif;
-}
-
-@mixin roboto() {
-    font-family: 'Roboto', sans-serif;
-}
-
-@mixin maven() {
-    font-family: 'Maven Pro', sans-serif;
-}
-
-@mixin font($fs, $lh) {
-    @if $fs != '' {
-        font-size: $fs;
-    }
-    @if $lh != '' {
-        line-height: $lh;
-    }
-}
 
 h1, h2, h3,h4, h5, h6 {
     margin-top: 0;
@@ -144,6 +116,7 @@ a {
 }
 
 #header {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -296,6 +269,7 @@ a {
 }
 
 #gnb {
+    z-index: 1;
     position: fixed;
     top: 157px;
     left: 0;
@@ -366,6 +340,7 @@ body.scrolled {
 }
 
 #aside {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: -100%;
