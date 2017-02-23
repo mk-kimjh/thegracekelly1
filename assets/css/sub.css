@@ -8,6 +8,9 @@
     box-shadow: none;
     border-color: #626262; }
 
+lavel {
+  margin-bottom: 0; }
+
 select {
   height: 30px;
   font-size: 11px;
@@ -79,6 +82,88 @@ select {
     .tab-menu .nav li a {
       font-size: 14px;
       padding: 19px 0; } }
+
+.nav-wedding {
+  width: 100%;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; }
+  @media (min-width: 768px) {
+    .nav-wedding {
+      width: 725px;
+      margin: 0 auto; } }
+  .nav-wedding > li {
+    float: left;
+    text-align: center;
+    width: 45%;
+    position: relative; }
+    .nav-wedding > li a {
+      font-size: 13px;
+      color: #333;
+      opacity: .2;
+      font-weight: 500;
+      display: block;
+      padding: 15px 0;
+      font-family: 'Lato', sans-serif; }
+      @media (min-width: 768px) {
+        .nav-wedding > li a {
+          font-size: 14px;
+          padding: 25px 0; } }
+    @media (min-width: 768px) {
+      .nav-wedding > li {
+        width: 20%; } }
+    .nav-wedding > li.active a {
+      opacity: 1; }
+    .nav-wedding > li:after {
+      position: absolute;
+      top: 15px;
+      right: -1px;
+      color: #333;
+      opacity: .2;
+      content: "|"; }
+      @media (min-width: 768px) {
+        .nav-wedding > li:after {
+          top: 25px; } }
+    .nav-wedding > li:nth-of-type(2n + 0):after {
+      content: ""; }
+      @media (min-width: 768px) {
+        .nav-wedding > li:nth-of-type(2n + 0):after {
+          content: "|"; } }
+    .nav-wedding > li:nth-of-type(2n + 1) {
+      width: 55%;
+      clear: both; }
+      @media (min-width: 768px) {
+        .nav-wedding > li:nth-of-type(2n + 1) {
+          width: 30%;
+          clear: none; } }
+    .nav-wedding > li:nth-of-type(1) a {
+      padding-bottom: 5px; }
+      @media (min-width: 768px) {
+        .nav-wedding > li:nth-of-type(1) a {
+          padding-bottom: 15px; } }
+      @media (min-width: 992px) {
+        .nav-wedding > li:nth-of-type(1) a {
+          padding-bottom: 25px; } }
+    .nav-wedding > li:nth-of-type(2) a {
+      padding-bottom: 5px; }
+      @media (min-width: 768px) {
+        .nav-wedding > li:nth-of-type(2) a {
+          padding-bottom: 15px; } }
+      @media (min-width: 992px) {
+        .nav-wedding > li:nth-of-type(2) a {
+          padding-bottom: 25px; } }
+    .nav-wedding > li:nth-of-type(3):after {
+      top: 22px; }
+      @media (min-width: 768px) {
+        .nav-wedding > li:nth-of-type(3):after {
+          top: 25px; } }
+    .nav-wedding > li:nth-of-type(4) {
+      padding-top: 8px; }
+      @media (min-width: 768px) {
+        .nav-wedding > li:nth-of-type(4) {
+          padding-top: 0; }
+          .nav-wedding > li:nth-of-type(4):after {
+            content: ""; } }
 
 .btn {
   font-size: 12px;

@@ -22,17 +22,14 @@
                 </ul>
             </div>
             
-            <!-- btn-area -->
+            <!-- wedding -->
             <div style="margin-top: 40px;"></div>
-            <div class="btn-area">
-                <p>
-                    <a href="#" class="btn btn-default" role="button">이전</a>
-                    <a href="#" class="btn btn-default" role="button">다음</a>
-                </p>
-                <p>
-                    <a href="#" class="btn btn-gray" role="button">목록보기</a>
-                </p>
-            </div>
+            <ul class="nav-wedding">
+                <li class="active"><a href="#">PARTY &amp; WEDDING</a></li>
+                <li><a href="#">BRIDAL PARTY</a></li>
+                <li><a href="#">TRADITIONAL<br class="visible-xs"> CEREMONY</a></li>
+                <li><a href="#">AFTER PARTY</a></li>
+            </ul>
             
             <!-- table -->
             <div style="margin-top: 40px;"></div>
@@ -79,6 +76,18 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+            
+            <!-- btn-area -->
+            <div style="margin-top: 40px;"></div>
+            <div class="btn-area">
+                <p>
+                    <a href="#" class="btn btn-default" role="button">이전</a>
+                    <a href="#" class="btn btn-default" role="button">다음</a>
+                </p>
+                <p>
+                    <a href="#" class="btn btn-gray" role="button">목록보기</a>
+                </p>
             </div>
             
             <!-- search-form -->
