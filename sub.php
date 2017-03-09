@@ -8,102 +8,15 @@
         <div class="container">
             <!-- page-header -->
             <div class="page-header">
-                <h2>KELLY IS</h2>
+                <h2>SPECIAL PARTY</h2>
                 <p>
-                    도심 속, 자연과 어우러진 하우스웨딩이<br class="visible-xs visible-md"> 당신의 꿈꾸는 결혼을 실현시켜드립니다.
+                    더 그레이스켈리는 품격있는 비즈니스 행사,존경 받기 마땅한 사랑하는 부모님을 위한 생신연회,패션쇼,런팅쇼 등 다양하 스타일의 연회를 즐길수 있는 최고의 파티공간임을 자부합니다.
                 </p>
             </div>
             
-            <!-- tab-menu common -->
-            <div class="tab-menu">
-                <ul class="nav nav-pills">
-                  <li class="active"><a href="#">ABOUT US</a></li>
-                  <li><a href="#">MOVIE</a></li>
-                </ul>
-            </div>
-            
-            <!-- wedding -->
-            <div style="margin-top: 40px;"></div>
-            <ul class="nav-wedding">
-                <li class="active"><a href="#">PARTY &amp; WEDDING</a></li>
-                <li><a href="#">BRIDAL PARTY</a></li>
-                <li><a href="#">TRADITIONAL<br class="visible-xs"> CEREMONY</a></li>
-                <li><a href="#">AFTER PARTY</a></li>
-            </ul>
-            
-            <!-- table -->
-            <div style="margin-top: 40px;"></div>
-            <div class="table-wrap">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>번호</th>
-                            <th>제목</th>
-                            <th>이름</th>
-                            <th>날짜</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="num">1</td>
-                            <td class="title"><a href="#">연말 행사안내</a></td>
-                            <td>최고관리자</td>
-                            <td class="date">2017-02-10</td>
-                        </tr>
-                        <tr>
-                            <td class="num">2</td>
-                            <td class="title"><a href="#">아름다운 샹들리에로 교체</a></td>
-                            <td>최고관리자</td>
-                            <td class="date">2017-02-10</td>
-                        </tr>
-                        <tr>
-                            <td class="num">3</td>
-                            <td class="title"><a href="#">하우스웨딩 초대전 : 더그레이스켈리 파티움 하우스 - 셀프웨딩 웨딩박람회</a></td>
-                            <td>최고관리자</td>
-                            <td class="date">2017-02-10</td>
-                        </tr>
-                        <tr>
-                            <td class="num">4</td>
-                            <td class="title"><a href="#">설문이벤트 당첨자, 피크닉 가방 증정</a></td>
-                            <td>최고관리자</td>
-                            <td class="date">2017-02-10</td>
-                        </tr>
-                        <tr>
-                            <td class="num">5</td>
-                            <td class="title"><a href="#">FLY TO THE SKY(플라이투더 스카이) 그렇게 됐어 MV</a></td>
-                            <td>최고관리자</td>
-                            <td class="date">2017-02-10</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            
-            <!-- btn-area -->
-            <div style="margin-top: 40px;"></div>
-            <div class="btn-area">
-                <p>
-                    <a href="#" class="btn btn-default" role="button">이전</a>
-                    <a href="#" class="btn btn-default" role="button">다음</a>
-                </p>
-                <p>
-                    <a href="#" class="btn btn-gray" role="button">목록보기</a>
-                </p>
-            </div>
-            
-            <!-- search-form -->
-            <div style="margin-top: 40px;"></div>
-            <div class="search-form">
-                <form action="#">
-                    <div class="form-group">
-                        <select>
-                            <option>제목</option>
-                        </select>
-                        <input type="text" id="search" class="form-control" placeholder="검색하실 단어를 입력하세요">
-                        <label for="search" class="sr-only">검색하실 단어를 입력하세요</label>
-                    </div>
-                    <button type="submit" class="btn search-btn">검색</button>
-                </form>
-            </div>
+            <!-- SubTitle -->
+            <div style="margin:30px 0;"></div>
+            <h3 class="sub-title">SPECIAL PARTY GALLERY</h3>
             
             <!-- paging -->
             <div style="margin-top: 40px;"></div>
@@ -146,6 +59,163 @@
                     </ul>
                 </nav>
             </div>
+            
+            <div style="margin-top: 30px;"></div>
+            <ul class="sub-gallery-list">
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img01.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img02.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img03.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img04.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img05.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img06.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img07.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img08.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img09.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img10.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img11.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img12.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img13.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img14.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/sub/sub_gallery_img15.jpg" class="img-responsive" alt="">
+                    </figure>
+                </li>
+            </ul>
+
+            
+            <!-- 첫번째 
+            <div class="row">
+                <div class="col-xs-12 col-sm-7 col-md-8">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p style="width: 100%; height: 100px; background:red;">첫번째이미지</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <p style="width: 100%; height: 100px; background:blue;">1-1</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12" col-md-6>
+                            <p style="width: 100%; height: 100px; background:orange;">1-2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-md-4">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p style="width: 100%; height: 200px; background:yellow;">컬럼투</p>
+                        </div>
+                        <div class="col-xs-12">
+                            <p style="width: 100%; height: 100px; background:pink;">2-2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            -->
+            
+            <!-- 두번째 
+            <div class="row">
+                <div class="col-xs-12 col-sm-7 col-md-8">
+                    <p style="width: 100%; height: 100px; background:red;">첫번째이미지</p>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-md-4">
+                    <p style="width: 100%; height: 300px; background:yellow;">컬럼투</p>
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-4" style="clear:both;">
+                    <p style="width: 100%; height: 100px; background:blue;">1-1</p>
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-4">
+                    <p style="width: 100%; height: 100px; background:orange;">1-2</p>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-md-4">
+                    <p style="width: 100%; height: 100px; background:pink;">2-2</p>
+                </div>
+            </div>
+            -->
+            
+            
+            <!-- btn-area 
+            <div style="margin-top: 40px;"></div>
+            <div class="btn-area">
+                <p>
+                    <a href="#" class="btn btn-default" role="button">이전</a>
+                    <a href="#" class="btn btn-default" role="button">다음</a>
+                </p>
+                <p>
+                    <a href="#" class="btn btn-gray" role="button">목록보기</a>
+                </p>
+            </div>
+            -->
+            <!-- search-form 
+            <div style="margin-top: 40px;"></div>
+            <div class="search-form">
+                <form action="#">
+                    <div class="form-group">
+                        <select>
+                            <option>제목</option>
+                        </select>
+                        <input type="text" id="search" class="form-control" placeholder="검색하실 단어를 입력하세요">
+                        <label for="search" class="sr-only">검색하실 단어를 입력하세요</label>
+                    </div>
+                    <button type="submit" class="btn search-btn">검색</button>
+                </form>
+            </div>
+            -->
             
         </div>
     </main>
