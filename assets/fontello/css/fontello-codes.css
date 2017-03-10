@@ -3,10 +3,15 @@
 .icon-phone:before { content: '\e801'; } /* '' */
 .icon-cancel:before { content: '\e802'; } /* '' */
 .icon-plus:before { content: '\e803'; } /* '' */
+.icon-clock:before { content: '\e804'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
 .icon-up-open:before { content: '\f005'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */
 .icon-left-open:before { content: '\f007'; } /* '' */
 .icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-angle-double-left:before { content: '\f100'; } /* '' */
+.icon-angle-double-right:before { content: '\f101'; } /* '' */
+.icon-angle-left:before { content: '\f104'; } /* '' */
+.icon-angle-right:before { content: '\f105'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
 .icon-facebook-1:before { content: '\f300'; } /* '' */

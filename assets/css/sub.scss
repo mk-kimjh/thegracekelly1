@@ -1,0 +1,343 @@
+@import 'common';
+
+.form-control {
+    height: 30px;
+    font-size: 11px;
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #dfdfdf;
+    &:hover, &:focus {
+        box-shadow: none;
+        border-color: #626262;
+    }
+}
+lavel {
+    margin-bottom: 0;
+}
+select {
+    height: 30px;
+    font-size: 11px;
+    color: #999;
+    border: 1px solid #dfdfdf;
+    &:hover, &:focus {
+        box-shadow: none;
+        border-color: #626262;
+    }
+}
+
+//페이지 제목
+.page-header {
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding-top: 30px;
+    padding-bottom: 30px; //임의지정
+    //padding-bottom: 페이지에 따라 값이 다름
+    > h2 {
+        font-size: 24px;
+        color: #222;
+        font-weight: bold;
+        @include lato;
+        padding-top: 32px;
+        margin-bottom: 15px;
+        background-image: url(/assets/images/sub/page_header_bg.png);
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: 80px 22px;
+    }
+    > p {
+        font-size: 11px;
+        color: #9a9a9a;
+        line-height: 16px;
+    }
+    @media(min-width: $sm) {
+        padding-top: 43px;
+        > h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            background-size: 90px 22px;
+        }
+        > p {
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+    @media(min-width: $md) {
+        padding-top: 70px;
+        > h2 {
+            margin-bottom: 30px;
+        }
+        > p {
+            
+        }
+    }
+}
+
+//서브 타이틀 
+.sub-title {
+    font-size: 24px;
+    color: #222;
+    font-weight: bold;
+    line-height: 30px;
+    @include lato;
+    text-align: center;
+    padding-top: 32px;
+    background-image: url(/assets/images/sub/page_header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 80px 22px;
+    @media(min-width: $sm) {
+        font-size: 30px;
+        background-size: 90px 22px;
+    }
+    @media(min-width: $md) {
+        font-weight: 400;
+        @include noto;
+    }
+}
+
+//공통 페이지 하단 겔러리 리스트
+.sub-gallery-list {
+    overflow: hidden;
+    > li {
+        float: left;
+        width: 33.33%;
+        &:nth-of-type(3n + 1) {
+            clear: both;
+        }
+        > figure {
+            .img-responsive {
+                min-width: 100%;
+                display: block;
+            }
+        }
+        @media(min-width: $sm) {
+            width: 25%;
+            &:nth-of-type(3n + 1) {
+                clear: none;
+            }
+            &:nth-of-type(4n + 1) {
+                clear: left;
+            }
+        }
+        @media(min-width: $md) {
+            width: 20%;
+            &:nth-of-type(4n + 1) {
+                clear: none;
+            }
+            &:nth-of-type(5n + 1) {
+                clear: left;
+            }
+        }
+    }
+}
+
+// 버튼 공통
+.btn {
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+    border-radius: 0;
+    opacity: 1;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    &:hover, &:focus {
+        opacity: .8;
+    }
+}
+
+// 페이징
+.paging {
+    text-align: center;
+    .pagination {
+        margin: 0;
+        li {
+            a {
+                font-size: 13px;
+                color: #aaa;
+                padding-top: 0;
+                padding-bottom: 0;
+                padding-left: 10px;
+                padding-right: 10px;
+                border: 0;
+                border-radius: 0;
+                @include maven;
+                &.arrow {
+                    color: #2b2b2b;
+                    padding-left: 3px;
+                    padding-right: 3px;
+                }
+                &.ar-left {
+                    padding-right: 15px;
+                }
+                &.ar-right {
+                    padding-left: 15px;
+                }
+                &:hover, &:focus {
+                    background: none;
+                }
+            }
+            &.active {
+                a {
+                    color: #2b2b2b;
+                    background: none;
+                    border: 0;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/*
+.btn-default {
+    width: 145px;
+    color: #666;
+    line-height: 32px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    @media(min-width: $sm) {
+        width: 100px;
+    }
+}
+.btn-gray {
+    width: 300px;
+    color: #fff;
+    line-height: 32px;
+    border: 1px solid #484642;
+    background-color: #484642;
+    &:hover, &:focus {
+        color: #fff;
+    }
+    @media(min-width: $sm) {
+        width: 100px;
+    }
+}
+.btn-area {
+    font-size: 0;
+    text-align: center;
+    p {
+        .btn {
+            margin-right: 10px;
+            display: inline-block;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+
+// search-form
+.search-form {
+    text-align: center;
+    font-size: 0;
+    .form-group {
+        display: inline-block;
+        select {
+            display: inline-block;
+            font-size: 11px;
+            width: 70px;
+            margin-right: 10px;
+            padding-left: 10px;
+            @media(min-width: $sm) {
+                width: 80px;
+                font-size: 12px;
+                margin-right: 5px;
+            }
+        }
+        .form-control {
+            display: inline-block;
+            width: 160px;
+            @media(min-width: $sm) {
+                width: 290px;
+                font-size: 12px;
+            }
+        }
+    }
+    .btn {
+        display: inline-block;
+        width: 50px;
+        font-size: 11px;
+        color: #fff;
+        line-height: 28px;
+        vertical-align: top;
+        margin-left: 10px;
+        border-color: #626262;
+        background-color: #626262;
+        @media(min-width: $sm) {
+            width: 70px;
+            font-size: 12px;
+            margin-left: 5px;
+        }
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
