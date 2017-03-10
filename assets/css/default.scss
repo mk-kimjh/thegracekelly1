@@ -585,6 +585,18 @@ body.aside-open {
                     font-size: 10px;
                     vertical-align: 1px;
                 }
+                &.visible-xs-block {
+                    line-height: 0;
+                    &:after {
+                        content: "";
+                    }
+                }
+                &.visible-sm-block {
+                    line-height: 0;
+                    &:after {
+                        content: "";
+                    }
+                }
                 address {
                     display: inline-block;
                 }

@@ -190,7 +190,39 @@ select {
     }
 }
 
-
+// 영업시간 및 문의
+.kelly-info {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #fafafa;
+    @media(min-width: $sm) {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    > li {
+        width: 232px;
+        margin: 0 auto;
+        display: block;
+        font-size: 15px;
+        color: #777;
+        text-align: left;
+        font-weight: 300;
+        line-height: 28px;
+        i {
+            margin-right: 20px;
+        }
+        a {
+            color: #777;
+            font-weight: 300;
+        }
+    }
+    @media(min-width: $sm) {
+        > li {
+            width: 251px;
+            font-size: 16px;
+        }
+    }
+}
 
 
 

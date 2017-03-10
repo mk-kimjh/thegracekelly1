@@ -4,6 +4,8 @@
 .icon-cancel:before { content: '\e802'; } /* '' */
 .icon-plus:before { content: '\e803'; } /* '' */
 .icon-clock:before { content: '\e804'; } /* '' */
+.icon-cancel-1:before { content: '\e805'; } /* '' */
+.icon-bus:before { content: '\e80b'; } /* '' */
 .icon-down-open:before { content: '\f004'; } /* '' */
 .icon-up-open:before { content: '\f005'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */
