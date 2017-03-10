@@ -95,6 +95,12 @@
       "css": "angle-double-right",
       "code": 61697,
       "src": "fontawesome"
+    },
+    {
+      "uid": "501f33ed61da407feb057a7699ef93f7",
+      "css": "clock",
+      "code": 59396,
+      "src": "websymbols"
     }
   ]
 }
