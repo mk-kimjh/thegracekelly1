@@ -7,92 +7,109 @@
     .house .page-header {
       padding-bottom: 60px; } }
 
-.wedding > ul > li > figure {
-  margin-bottom: 10px; }
-  .wedding > ul > li > figure .img-responsive {
-    min-width: 100%; }
-.wedding > ul > li:last-child figure {
-  margin-bottom: 0; }
-@media (min-width: 768px) {
-  .wedding > ul > li:nth-of-type(1) {
-    padding-right: 5px !important; }
-  .wedding > ul > li:nth-of-type(2) {
-    padding-left: 5px !important; }
-  .wedding > ul > li:nth-of-type(3) {
-    padding-right: 5px !important; }
-  .wedding > ul > li:nth-of-type(4) {
-    padding-left: 5px !important; } }
-@media (min-width: 992px) {
-  .wedding > ul > li figure {
-    margin-bottom: 20px; }
-  .wedding > ul > li:nth-of-type(1) {
-    padding-right: 10px !important; }
-  .wedding > ul > li:nth-of-type(2) {
-    padding-left: 10px !important; }
-  .wedding > ul > li:nth-of-type(3) {
-    padding-right: 10px !important; }
-  .wedding > ul > li:nth-of-type(4) {
-    padding-left: 10px !important; } }
-.wedding .dream {
-  text-align: center;
-  padding-top: 45px;
-  padding-bottom: 50px; }
-  .wedding .dream > h4 {
-    font-size: 23px;
-    color: #c29b5e;
-    line-height: 26px;
-    font-weight: 500;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-    background-image: url(/assets/images/house/dream_title_bg.png);
-    background-repeat: no-repeat;
-    background-position: 50% 100%; }
-  .wedding .dream > p {
-    font-size: 13px;
-    color: #777;
-    line-height: 22px; }
+.wedding-house {
+  padding-bottom: 60px; }
   @media (min-width: 768px) {
-    .wedding .dream {
-      padding-top: 60px;
-      padding-bottom: 80px; }
-      .wedding .dream > h4 {
-        font-size: 22px;
-        padding-bottom: 35px; } }
+    .wedding-house {
+      padding-bottom: 120px; } }
   @media (min-width: 992px) {
-    .wedding .dream {
-      padding-top: 75px;
-      padding-bottom: 70px; }
-      .wedding .dream > h4 {
-        font-size: 26px;
-        margin-bottom: 25px; }
-      .wedding .dream > p {
-        font-size: 16px;
-        line-height: 28px; } }
-
-.wedding-info {
-  padding-top: 35px;
-  padding-bottom: 35px;
-  background-color: #fafafa; }
-  .wedding-info > li {
-    width: 232px;
-    margin: 0 auto;
-    display: block;
-    font-size: 15px;
-    color: #777;
-    text-align: left;
-    font-weight: 300;
-    line-height: 28px; }
-    .wedding-info > li i {
-      margin-right: 20px; }
-    .wedding-info > li a {
-      color: #777;
-      font-weight: 300; }
+    .wedding-house {
+      padding-bottom: 110px; } }
+  .wedding-house .wedding > ul > li > figure {
+    margin-bottom: 10px; }
+    .wedding-house .wedding > ul > li > figure .img-responsive {
+      min-width: 100%; }
+  .wedding-house .wedding > ul > li:last-child figure {
+    margin-bottom: 0; }
   @media (min-width: 768px) {
-    .wedding-info {
-      padding-top: 55px;
-      padding-bottom: 55px; }
-      .wedding-info > li {
-        width: 251px;
-        font-size: 16px; } }
+    .wedding-house .wedding > ul > li:nth-of-type(1) {
+      padding-right: 5px !important; }
+    .wedding-house .wedding > ul > li:nth-of-type(2) {
+      padding-left: 5px !important; }
+    .wedding-house .wedding > ul > li:nth-of-type(3) {
+      padding-right: 5px !important; }
+    .wedding-house .wedding > ul > li:nth-of-type(4) {
+      padding-left: 5px !important; } }
+  @media (min-width: 992px) {
+    .wedding-house .wedding > ul > li figure {
+      margin-bottom: 20px; }
+    .wedding-house .wedding > ul > li:nth-of-type(1) {
+      padding-right: 10px !important; }
+    .wedding-house .wedding > ul > li:nth-of-type(2) {
+      padding-left: 10px !important; }
+    .wedding-house .wedding > ul > li:nth-of-type(3) {
+      padding-right: 10px !important; }
+    .wedding-house .wedding > ul > li:nth-of-type(4) {
+      padding-left: 10px !important; } }
+  .wedding-house .wedding .dream {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 50px; }
+    .wedding-house .wedding .dream > h4 {
+      font-size: 23px;
+      color: #c29b5e;
+      line-height: 26px;
+      font-weight: 500;
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+      background-image: url(/assets/images/house/dream_title_bg.png);
+      background-repeat: no-repeat;
+      background-position: 50% 100%; }
+    .wedding-house .wedding .dream > p {
+      font-size: 13px;
+      color: #777;
+      line-height: 22px; }
+    @media (min-width: 768px) {
+      .wedding-house .wedding .dream {
+        padding-top: 60px;
+        padding-bottom: 80px; }
+        .wedding-house .wedding .dream > h4 {
+          font-size: 22px;
+          padding-bottom: 35px; } }
+    @media (min-width: 992px) {
+      .wedding-house .wedding .dream {
+        padding-top: 75px;
+        padding-bottom: 70px; }
+        .wedding-house .wedding .dream > h4 {
+          font-size: 26px;
+          margin-bottom: 25px; }
+        .wedding-house .wedding .dream > p {
+          font-size: 16px;
+          line-height: 28px; } }
+  .wedding-house .wedding-info {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #fafafa; }
+    .wedding-house .wedding-info > li {
+      width: 232px;
+      margin: 0 auto;
+      display: block;
+      font-size: 15px;
+      color: #777;
+      text-align: left;
+      font-weight: 300;
+      line-height: 28px; }
+      .wedding-house .wedding-info > li i {
+        margin-right: 20px; }
+      .wedding-house .wedding-info > li a {
+        color: #777;
+        font-weight: 300; }
+    @media (min-width: 768px) {
+      .wedding-house .wedding-info {
+        padding-top: 55px;
+        padding-bottom: 55px; }
+        .wedding-house .wedding-info > li {
+          width: 251px;
+          font-size: 16px; } }
+  .wedding-house .sub-gallery {
+    padding-top: 70px; }
+    .wedding-house .sub-gallery .sub-title {
+      margin-bottom: 45px; }
+    @media (min-width: 768px) {
+      .wedding-house .sub-gallery {
+        padding-top: 80px; } }
+    @media (min-width: 992px) {
+      .wedding-house .sub-gallery {
+        padding-top: 70px; } }
 
 /*# sourceMappingURL=house.css.map */
