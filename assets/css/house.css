@@ -52,7 +52,7 @@
       font-weight: 500;
       margin-bottom: 30px;
       padding-bottom: 30px;
-      background-image: url(/assets/images/house/dream_title_bg.png);
+      background-image: url(/assets/images/sub/dream_title_bg.png);
       background-repeat: no-repeat;
       background-position: 50% 100%; }
     .wedding-house .wedding .dream > p {
@@ -76,31 +76,6 @@
         .wedding-house .wedding .dream > p {
           font-size: 16px;
           line-height: 28px; } }
-  .wedding-house .wedding-info {
-    padding-top: 35px;
-    padding-bottom: 35px;
-    background-color: #fafafa; }
-    .wedding-house .wedding-info > li {
-      width: 232px;
-      margin: 0 auto;
-      display: block;
-      font-size: 15px;
-      color: #777;
-      text-align: left;
-      font-weight: 300;
-      line-height: 28px; }
-      .wedding-house .wedding-info > li i {
-        margin-right: 20px; }
-      .wedding-house .wedding-info > li a {
-        color: #777;
-        font-weight: 300; }
-    @media (min-width: 768px) {
-      .wedding-house .wedding-info {
-        padding-top: 55px;
-        padding-bottom: 55px; }
-        .wedding-house .wedding-info > li {
-          width: 251px;
-          font-size: 16px; } }
   .wedding-house .sub-gallery {
     padding-top: 70px; }
     .wedding-house .sub-gallery .sub-title {

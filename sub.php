@@ -60,6 +60,15 @@
                 </nav>
             </div>
             
+            <!-- 영업시간 및 문의전화 -->
+            <ul class="wedding-info">
+                <li>
+                    <i class="icon-phone"></i>웨딩 &amp; 파티 문의 <a href="tel:025473381">02-547-3381</a>
+                </li>
+                <li>
+                    <i class="icon-clock"></i>영업시간 AM 10:00 - PM 07:00
+                </li>
+            </ul>
             <div style="margin-top: 30px;"></div>
             <ul class="sub-gallery-list">
                 <li>

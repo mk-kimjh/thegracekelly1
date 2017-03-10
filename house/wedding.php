@@ -51,7 +51,7 @@
                         </p>
                     </div>
                 </div>
-                <ul class="wedding-info">
+                <ul class="kelly-info">
                     <li>
                         <i class="icon-phone"></i>웨딩 &amp; 파티 문의 <a href="tel:025473381">02-547-3381</a>
                     </li>

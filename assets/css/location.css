@@ -1,0 +1,70 @@
+.location .page-header {
+  padding-bottom: 35px; }
+  @media (min-width: 768px) {
+    .location .page-header {
+      padding-bottom: 60px; } }
+  @media (min-width: 992px) {
+    .location .page-header {
+      padding-bottom: 40px; } }
+
+.map {
+  padding-bottom: 70px; }
+  @media (min-width: 768px) {
+    .map {
+      padding-bottom: 125px; } }
+  @media (min-width: 992px) {
+    .map {
+      padding-bottom: 110px; } }
+  .map .maps img {
+    min-width: 100%; }
+  .map .table-wrap {
+    margin-top: 30px; }
+    .map .table-wrap .table {
+      margin-bottom: 0;
+      border: 0; }
+      .map .table-wrap .table tbody tr th {
+        width: 70px;
+        font-size: 11px;
+        color: #666;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0;
+        border-color: #e1e1e1;
+        background-color: #f9f9f9; }
+      .map .table-wrap .table tbody tr td {
+        font-size: 11px;
+        color: #666;
+        line-height: 16px;
+        font-weight: 400;
+        padding: 15px 15px 15px 25px;
+        border-color: #e1e1e1; }
+        .map .table-wrap .table tbody tr td ul li i {
+          margin-right: 10px; }
+          .map .table-wrap .table tbody tr td ul li i.subway {
+            height: 21px;
+            width: 24px;
+            display: inline-block;
+            background-image: url(/assets/images/location/icon_subway.png);
+            background-repeat: no-repeat;
+            background-size: 21px 21px;
+            background-position: 50% 0; }
+          .map .table-wrap .table tbody tr td ul li i.icon-bus {
+            font-size: 24px; }
+            .map .table-wrap .table tbody tr td ul li i.icon-bus:before {
+              margin-left: 0;
+              margin-right: 0; }
+          .map .table-wrap .table tbody tr td ul li i.bus-1 {
+            color: #615c00; }
+          .map .table-wrap .table tbody tr td ul li i.bus-2 {
+            color: #6ac66e; }
+          .map .table-wrap .table tbody tr td ul li i.bus-3 {
+            color: #285ae1; }
+          .map .table-wrap .table tbody tr td ul li i.bus-4 {
+            color: #f0bb77; }
+          .map .table-wrap .table tbody tr td ul li i.bus-5 {
+            color: #5ad95d; }
+          .map .table-wrap .table tbody tr td ul li i.bus-6 {
+            color: #a9a47a; }
+
+/*# sourceMappingURL=location.css.map */
