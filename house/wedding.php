@@ -138,6 +138,7 @@
                     </li>
                 </ul>
             </div>
+            <p>Test 입니다.</p>
         </div>
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
