@@ -1,0 +1,150 @@
+@import 'common';
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700');
+
+.kelly {
+    .page-header {
+        padding-bottom: 40px;
+        @media(min-width: $sm) {
+            padding-bottom: 50px;
+        }
+        @media(min-width: $md) {
+            padding-bottom: 60px;
+        }
+    }
+}
+.kelly-is {
+    padding-bottom: 40px;
+    @media(min-width: $sm) {
+        padding-bottom: 90px;
+    }
+    @media(min-width: $md) {
+        padding-bottom: 105px;
+    }
+    .section-header {
+        position: relative;
+        height: 360px;
+        text-align: center;
+        padding-top: 55px;
+        &:after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: .6;
+            background-image: url(/assets/images/kelly/kelly_is_bg.jpg);
+            background-repeat: no-repeat;
+            background-position: 52% 100%;
+        }
+        @media(min-width: $sm) {
+            height: 406px;
+            padding-top: 65px;
+            padding-left: 50px;
+            text-align: left;
+            &:after {
+                background-image: url(/assets/images/kelly/kelly_is_bg_md.jpg);
+                background-size: 100% 100%;
+                background-position: 50% 50%;
+                opacity: 1;
+            }
+        }
+        @media(min-width: $md) {
+            padding-left: 80px;
+            &:after {
+                background-image: url(/assets/images/kelly/kelly_is_bg.jpg);
+                background-position: 50% 50%;
+                background-size: 100% 100%;
+            }
+        }
+        h3 {
+            display: inline-block;
+            img {
+                width: 276px;
+                @media(min-width: $sm) {
+                    width: 373px;
+                }
+            }
+        }
+        > p {
+            font-size: 12px;
+            color: #666;
+            line-height: 19px;
+            margin-top: 25px;
+            @media(min-width: $sm) {
+                position: absolute;
+                left: 50px;
+                font-size: 13px;
+                line-height: 22px;
+                margin-top: 40px;
+                text-align: center;
+            }
+            @media(min-width: $md) {
+                left: 80px;
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+    .section-content {
+        padding-top: 70px;
+        text-align: center;
+        .content-header {
+            hr {
+                width: 38px;
+                display: inline-block;
+                margin: 0;
+                margin-bottom: 20px;
+                border-top: 2px solid #3f3f3f;
+            }
+            h4 {
+                font-size: 18px;
+                color: #222;
+                font-weight: 600;
+                font-family: 'Crimson Text', serif;
+                margin-bottom: 30px;
+                @media(min-width: $sm) {
+                    font-size: 23px;
+                    margin-bottom: 40px;
+                }
+                @media(min-width: $md) {
+                    font-size: 24px;
+                }
+            }
+            p {
+                font-size: 12px;
+                color: #666;
+                line-height: 18px;
+                @media(min-width: $sm) {
+                    font-size: 13px;
+                    color: #999;
+                    line-height: 22px;
+                }
+                @media(min-width: $md) {
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+            }
+        }
+        figure {
+            margin-top: 60px;
+            .img-responsive {
+                min-width: 100%;
+            }
+            @media(min-width: $sm) {
+                margin-top: 45px;
+            }
+            @media(min-width: $md) {
+                margin-top: 85px;
+            }
+        }
+        @media(min-width: $sm) {
+            padding-top: 80px;
+        }
+        @media(min-width: $md) {
+            padding-top: 125px;
+        }
+    }
+}

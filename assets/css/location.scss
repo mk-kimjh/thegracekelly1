@@ -26,6 +26,12 @@
     }
     .table-wrap {
         margin-top: 30px;
+        @media(min-width: $sm) {
+            margin-top: 60px;
+        }
+        @media(min-width: $md) {
+            margin-top: 85px;
+        }
         .table {
             margin-bottom: 0;
             border: 0;
@@ -41,6 +47,10 @@
                         padding: 0;
                         border-color: #e1e1e1;
                         background-color: #f9f9f9;
+                        @media(min-width: $sm) {
+                            width: 160px;
+                            font-size: 16px;
+                        }
                     }
                     td {
                         font-size: 11px;
@@ -49,10 +59,38 @@
                         font-weight: 400;
                         padding: 15px 15px 15px 25px;
                         border-color: #e1e1e1;
-                        ul {
-                            li {
-                                i {
-                                    margin-right: 10px;
+                        > ul {
+                            > li {
+                                position: relative;
+                                padding-left: 34px;
+                                line-height: 16px;
+                                margin-bottom: 10px;
+                                @media(min-width: $sm) {
+                                    line-height: 20px;
+                                }
+                                &.line {
+                                    height: 24px;
+                                    padding-top: 3px;
+                                    i {
+                                        top: 0;
+                                    }
+                                    @media(min-width: $sm) {
+                                        padding-top: 0;
+                                    }
+                                }
+                                &:last-child {
+                                    margin-bottom: 0;
+                                }
+                                > i {
+                                    position: absolute;
+                                    top: 4px;
+                                    left: 0;
+                                    @media(min-width: 426px) {
+                                        top: 0;
+                                    }
+                                    @media(min-width: $sm) {
+                                        top: 0;
+                                    }
                                     &.subway {
                                         height: 21px;
                                         width: 24px;
@@ -61,6 +99,11 @@
                                         background-repeat: no-repeat;
                                         background-size: 21px 21px;
                                         background-position: 50% 0;
+                                    }
+                                    &.sub-2 {
+                                        @media(min-width: 378px) {
+                                            top: 0;
+                                        }
                                     }
                                     &.icon-bus {
                                         font-size: 24px;
@@ -71,12 +114,17 @@
                                     }
                                     &.bus-1 {
                                         color: #615c00;
+                                        @media(min-width: 399px) {
+                                            top: 0;
+                                        }
                                     }
                                     &.bus-2 {
                                         color: #6ac66e;
+                                        top: 0;
                                     }
                                     &.bus-3 {
                                         color: #285ae1;
+                                        top: 0;
                                     }
                                     &.bus-4 {
                                         color: #f0bb77;
@@ -88,7 +136,79 @@
                                         color: #a9a47a;
                                     }
                                 }
+                                > dl {
+                                    position: relative;
+                                    overflow: hidden;
+                                    > dt {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        font-weight: 400;
+                                        font-size: 11px;
+                                        @media(min-width: $sm) {
+                                            font-size: 14px;
+                                        }
+                                        &:after {
+                                            color: #666;
+                                            content: "-";
+                                            margin: 0 2px;
+                                            display: inline-block;
+                                            @media(min-width: $sm) {
+                                                margin: 0 4px;
+                                            }
+                                        }
+                                        &.tx-1 {
+                                            color: #48bc4d;
+                                        }
+                                        &.tx-2 {
+                                            color: #285ae1;
+                                        }
+                                        &.tx-3 {
+                                            color: #ea9e24;
+                                        }
+                                        &.tx-4 {
+                                            color: #48d64c;
+                                        }
+                                        &.tx-5 {
+                                            color: #a9a47a;
+                                        }
+                                    }
+                                    > dd {
+                                        float: left;
+                                        font-weight: 400;
+                                        padding-left: 30px;
+                                        @media(min-width: $sm) {
+                                            padding-left: 38px;
+                                        }
+                                        > .route-list {
+                                            display: inline;
+                                            li {
+                                                display: inline-block;
+                                                font-size: 11px;
+                                                color: #666;
+                                                font-weight: 400;
+                                                line-height: 16px;
+                                                &:after {
+                                                    content: ",";
+                                                    margin-right: 5px;
+                                                }
+                                                &:last-child:after {
+                                                    content: "";
+                                                    margin-right: 0;
+                                                }
+                                                @media(min-width: $sm) {
+                                                    font-size: 14px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
                             }
+                        }
+                        @media(min-width: $sm) {
+                            font-size: 14px;
+                            padding: 20px 50px;
+                            line-height: 20px;
                         }
                     }
                 }
