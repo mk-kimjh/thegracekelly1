@@ -19,6 +19,12 @@
     min-width: 100%; }
   .map .table-wrap {
     margin-top: 30px; }
+    @media (min-width: 768px) {
+      .map .table-wrap {
+        margin-top: 60px; } }
+    @media (min-width: 992px) {
+      .map .table-wrap {
+        margin-top: 85px; } }
     .map .table-wrap .table {
       margin-bottom: 0;
       border: 0; }
@@ -32,6 +38,10 @@
         padding: 0;
         border-color: #e1e1e1;
         background-color: #f9f9f9; }
+        @media (min-width: 768px) {
+          .map .table-wrap .table tbody tr th {
+            width: 160px;
+            font-size: 16px; } }
       .map .table-wrap .table tbody tr td {
         font-size: 11px;
         color: #666;
@@ -39,32 +49,125 @@
         font-weight: 400;
         padding: 15px 15px 15px 25px;
         border-color: #e1e1e1; }
-        .map .table-wrap .table tbody tr td ul li i {
-          margin-right: 10px; }
-          .map .table-wrap .table tbody tr td ul li i.subway {
-            height: 21px;
-            width: 24px;
-            display: inline-block;
-            background-image: url(/assets/images/location/icon_subway.png);
-            background-repeat: no-repeat;
-            background-size: 21px 21px;
-            background-position: 50% 0; }
-          .map .table-wrap .table tbody tr td ul li i.icon-bus {
-            font-size: 24px; }
-            .map .table-wrap .table tbody tr td ul li i.icon-bus:before {
-              margin-left: 0;
-              margin-right: 0; }
-          .map .table-wrap .table tbody tr td ul li i.bus-1 {
-            color: #615c00; }
-          .map .table-wrap .table tbody tr td ul li i.bus-2 {
-            color: #6ac66e; }
-          .map .table-wrap .table tbody tr td ul li i.bus-3 {
-            color: #285ae1; }
-          .map .table-wrap .table tbody tr td ul li i.bus-4 {
-            color: #f0bb77; }
-          .map .table-wrap .table tbody tr td ul li i.bus-5 {
-            color: #5ad95d; }
-          .map .table-wrap .table tbody tr td ul li i.bus-6 {
-            color: #a9a47a; }
+        .map .table-wrap .table tbody tr td > ul > li {
+          position: relative;
+          padding-left: 34px;
+          line-height: 16px;
+          margin-bottom: 10px; }
+          @media (min-width: 768px) {
+            .map .table-wrap .table tbody tr td > ul > li {
+              line-height: 20px; } }
+          .map .table-wrap .table tbody tr td > ul > li.line {
+            height: 24px;
+            padding-top: 3px; }
+            .map .table-wrap .table tbody tr td > ul > li.line i {
+              top: 0; }
+            @media (min-width: 768px) {
+              .map .table-wrap .table tbody tr td > ul > li.line {
+                padding-top: 0; } }
+          .map .table-wrap .table tbody tr td > ul > li:last-child {
+            margin-bottom: 0; }
+          .map .table-wrap .table tbody tr td > ul > li > i {
+            position: absolute;
+            top: 4px;
+            left: 0; }
+            @media (min-width: 426px) {
+              .map .table-wrap .table tbody tr td > ul > li > i {
+                top: 0; } }
+            @media (min-width: 768px) {
+              .map .table-wrap .table tbody tr td > ul > li > i {
+                top: 0; } }
+            .map .table-wrap .table tbody tr td > ul > li > i.subway {
+              height: 21px;
+              width: 24px;
+              display: inline-block;
+              background-image: url(/assets/images/location/icon_subway.png);
+              background-repeat: no-repeat;
+              background-size: 21px 21px;
+              background-position: 50% 0; }
+            @media (min-width: 378px) {
+              .map .table-wrap .table tbody tr td > ul > li > i.sub-2 {
+                top: 0; } }
+            .map .table-wrap .table tbody tr td > ul > li > i.icon-bus {
+              font-size: 24px; }
+              .map .table-wrap .table tbody tr td > ul > li > i.icon-bus:before {
+                margin-left: 0;
+                margin-right: 0; }
+            .map .table-wrap .table tbody tr td > ul > li > i.bus-1 {
+              color: #615c00; }
+              @media (min-width: 399px) {
+                .map .table-wrap .table tbody tr td > ul > li > i.bus-1 {
+                  top: 0; } }
+            .map .table-wrap .table tbody tr td > ul > li > i.bus-2 {
+              color: #6ac66e;
+              top: 0; }
+            .map .table-wrap .table tbody tr td > ul > li > i.bus-3 {
+              color: #285ae1;
+              top: 0; }
+            .map .table-wrap .table tbody tr td > ul > li > i.bus-4 {
+              color: #f0bb77; }
+            .map .table-wrap .table tbody tr td > ul > li > i.bus-5 {
+              color: #5ad95d; }
+            .map .table-wrap .table tbody tr td > ul > li > i.bus-6 {
+              color: #a9a47a; }
+          .map .table-wrap .table tbody tr td > ul > li > dl {
+            position: relative;
+            overflow: hidden; }
+            .map .table-wrap .table tbody tr td > ul > li > dl > dt {
+              position: absolute;
+              top: 0;
+              left: 0;
+              font-weight: 400;
+              font-size: 11px; }
+              @media (min-width: 768px) {
+                .map .table-wrap .table tbody tr td > ul > li > dl > dt {
+                  font-size: 14px; } }
+              .map .table-wrap .table tbody tr td > ul > li > dl > dt:after {
+                color: #666;
+                content: "-";
+                margin: 0 2px;
+                display: inline-block; }
+                @media (min-width: 768px) {
+                  .map .table-wrap .table tbody tr td > ul > li > dl > dt:after {
+                    margin: 0 4px; } }
+              .map .table-wrap .table tbody tr td > ul > li > dl > dt.tx-1 {
+                color: #48bc4d; }
+              .map .table-wrap .table tbody tr td > ul > li > dl > dt.tx-2 {
+                color: #285ae1; }
+              .map .table-wrap .table tbody tr td > ul > li > dl > dt.tx-3 {
+                color: #ea9e24; }
+              .map .table-wrap .table tbody tr td > ul > li > dl > dt.tx-4 {
+                color: #48d64c; }
+              .map .table-wrap .table tbody tr td > ul > li > dl > dt.tx-5 {
+                color: #a9a47a; }
+            .map .table-wrap .table tbody tr td > ul > li > dl > dd {
+              float: left;
+              font-weight: 400;
+              padding-left: 30px; }
+              @media (min-width: 768px) {
+                .map .table-wrap .table tbody tr td > ul > li > dl > dd {
+                  padding-left: 38px; } }
+              .map .table-wrap .table tbody tr td > ul > li > dl > dd > .route-list {
+                display: inline; }
+                .map .table-wrap .table tbody tr td > ul > li > dl > dd > .route-list li {
+                  display: inline-block;
+                  font-size: 11px;
+                  color: #666;
+                  font-weight: 400;
+                  line-height: 16px; }
+                  .map .table-wrap .table tbody tr td > ul > li > dl > dd > .route-list li:after {
+                    content: ",";
+                    margin-right: 5px; }
+                  .map .table-wrap .table tbody tr td > ul > li > dl > dd > .route-list li:last-child:after {
+                    content: "";
+                    margin-right: 0; }
+                  @media (min-width: 768px) {
+                    .map .table-wrap .table tbody tr td > ul > li > dl > dd > .route-list li {
+                      font-size: 14px; } }
+        @media (min-width: 768px) {
+          .map .table-wrap .table tbody tr td {
+            font-size: 14px;
+            padding: 20px 50px;
+            line-height: 20px; } }
 
 /*# sourceMappingURL=location.css.map */

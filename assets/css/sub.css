@@ -8,7 +8,7 @@
     box-shadow: none;
     border-color: #626262; }
 
-lavel {
+label {
   margin-bottom: 0; }
 
 select {
@@ -171,90 +171,5 @@ select {
     .kelly-info > li {
       width: 251px;
       font-size: 16px; } }
-
-/*
-.btn-default {
-    width: 145px;
-    color: #666;
-    line-height: 32px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    @media(min-width: $sm) {
-        width: 100px;
-    }
-}
-.btn-gray {
-    width: 300px;
-    color: #fff;
-    line-height: 32px;
-    border: 1px solid #484642;
-    background-color: #484642;
-    &:hover, &:focus {
-        color: #fff;
-    }
-    @media(min-width: $sm) {
-        width: 100px;
-    }
-}
-.btn-area {
-    font-size: 0;
-    text-align: center;
-    p {
-        .btn {
-            margin-right: 10px;
-            display: inline-block;
-            &:last-child {
-                margin-right: 0;
-            }
-        }
-    }
-}
-
-
-// search-form
-.search-form {
-    text-align: center;
-    font-size: 0;
-    .form-group {
-        display: inline-block;
-        select {
-            display: inline-block;
-            font-size: 11px;
-            width: 70px;
-            margin-right: 10px;
-            padding-left: 10px;
-            @media(min-width: $sm) {
-                width: 80px;
-                font-size: 12px;
-                margin-right: 5px;
-            }
-        }
-        .form-control {
-            display: inline-block;
-            width: 160px;
-            @media(min-width: $sm) {
-                width: 290px;
-                font-size: 12px;
-            }
-        }
-    }
-    .btn {
-        display: inline-block;
-        width: 50px;
-        font-size: 11px;
-        color: #fff;
-        line-height: 28px;
-        vertical-align: top;
-        margin-left: 10px;
-        border-color: #626262;
-        background-color: #626262;
-        @media(min-width: $sm) {
-            width: 70px;
-            font-size: 12px;
-            margin-left: 5px;
-        }
-    }
-}
-*/
 
 /*# sourceMappingURL=sub.css.map */

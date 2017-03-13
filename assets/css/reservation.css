@@ -1,0 +1,206 @@
+.reservation .page-header {
+  padding-bottom: 40px; }
+  @media (min-width: 768px) {
+    .reservation .page-header {
+      padding-bottom: 65px; } }
+  @media (min-width: 992px) {
+    .reservation .page-header {
+      padding-bottom: 40px; } }
+
+.reserve_write {
+  padding-bottom: 60px; }
+  @media (min-width: 768px) {
+    .reserve_write {
+      padding-bottom: 140px; } }
+  @media (min-width: 992px) {
+    .reserve_write {
+      padding-bottom: 115px; } }
+  .reserve_write .service-info .service {
+    overflow-y: scroll;
+    width: 100%;
+    height: 295px;
+    font-size: 11px;
+    color: #666;
+    line-height: 20px;
+    padding: 30px 10px;
+    border: 1px solid #dfdfdf; }
+    @media (min-width: 768px) {
+      .reserve_write .service-info .service {
+        height: 350px;
+        font-size: 13px;
+        padding: 25px; } }
+  .reserve_write .service-info .form-group {
+    margin-top: 15px; }
+    .reserve_write .service-info .form-group label {
+      font-size: 11px;
+      color: #666;
+      font-weight: 300; }
+      @media (min-width: 768px) {
+        .reserve_write .service-info .form-group label {
+          font-size: 13px; } }
+      .reserve_write .service-info .form-group label input {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        margin-top: -2px;
+        margin-right: 8px; }
+  .reserve_write .write {
+    margin-top: 65px; }
+    @media (min-width: 768px) {
+      .reserve_write .write {
+        margin-top: 90px; } }
+    @media (min-width: 992px) {
+      .reserve_write .write {
+        margin-top: 70px; } }
+    .reserve_write .write h3 {
+      font-size: 12px;
+      color: #333;
+      font-weight: 500;
+      margin-bottom: 10px; }
+      @media (min-width: 768px) {
+        .reserve_write .write h3 {
+          font-size: 15px;
+          margin-bottom: 15px; } }
+    .reserve_write .write .table-wrap {
+      border: 0;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd; }
+      @media (min-width: 768px) {
+        .reserve_write .write .table-wrap {
+          border-color: #2d2d2d; } }
+      .reserve_write .write .table-wrap .table {
+        margin-bottom: 0;
+        border: 0; }
+        .reserve_write .write .table-wrap .table tbody tr th {
+          width: 125px;
+          font-size: 11px;
+          color: #2b2b2b;
+          font-weight: 400;
+          vertical-align: middle;
+          text-align: left;
+          padding-left: 10px;
+          border: 0; }
+          @media (min-width: 768px) {
+            .reserve_write .write .table-wrap .table tbody tr th {
+              width: 190px;
+              font-size: 13px; } }
+          .reserve_write .write .table-wrap .table tbody tr th label {
+            font-size: 11px;
+            color: #2b2b2b;
+            font-weight: 400; }
+            @media (min-width: 768px) {
+              .reserve_write .write .table-wrap .table tbody tr th label {
+                font-size: 13px; } }
+          .reserve_write .write .table-wrap .table tbody tr th.prevent {
+            vertical-align: top;
+            padding-top: 30px; }
+          .reserve_write .write .table-wrap .table tbody tr th.u-content {
+            vertical-align: top; }
+        .reserve_write .write .table-wrap .table tbody tr td {
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-right: 10px;
+          border: 0; }
+          .reserve_write .write .table-wrap .table tbody tr td .form-group textarea.form-control {
+            width: 100%;
+            height: 130px; }
+          .reserve_write .write .table-wrap .table tbody tr td .form-group .form-control {
+            font-size: 11px;
+            height: 30px;
+            vertical-align: top;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            border: 1px solid #dfdfdf; }
+            @media (min-width: 768px) {
+              .reserve_write .write .table-wrap .table tbody tr td .form-group .form-control {
+                width: 290px;
+                font-size: 13px; } }
+          @media (min-width: 768px) {
+            .reserve_write .write .table-wrap .table tbody tr td .form-group select.form-control {
+              width: 250px; } }
+          .reserve_write .write .table-wrap .table tbody tr td.date {
+            vertical-align: middle; }
+            .reserve_write .write .table-wrap .table tbody tr td.date .form-group .form-control {
+              display: inline-block;
+              margin-right: 10px;
+              width: 120px; }
+              @media (min-width: 768px) {
+                .reserve_write .write .table-wrap .table tbody tr td.date .form-group .form-control {
+                  width: 250px; } }
+            .reserve_write .write .table-wrap .table tbody tr td.date .form-group label {
+              height: 22px;
+              line-height: 28px;
+              display: inline-block; }
+              .reserve_write .write .table-wrap .table tbody tr td.date .form-group label i {
+                font-size: 22px;
+                color: #222; }
+          .reserve_write .write .table-wrap .table tbody tr td.captcha {
+            padding-top: 15px;
+            padding-bottom: 30px; }
+            .reserve_write .write .table-wrap .table tbody tr td.captcha .captcha-box {
+              width: 100%;
+              height: 40px;
+              line-height: 38px;
+              text-align: center;
+              border: 1px solid #ddd;
+              margin-bottom: 10px; }
+            .reserve_write .write .table-wrap .table tbody tr td.captcha .form-group .form-control {
+              height: 40px; }
+            .reserve_write .write .table-wrap .table tbody tr td.captcha .attention {
+              font-size: 11px;
+              color: #222;
+              opacity: .5;
+              margin-top: 10px; }
+              @media (min-width: 768px) {
+                .reserve_write .write .table-wrap .table tbody tr td.captcha .attention {
+                  font-size: 12px; } }
+            @media (min-width: 768px) {
+              .reserve_write .write .table-wrap .table tbody tr td.captcha .captcha-box {
+                display: inline-block;
+                width: 120px;
+                margin: 0;
+                margin-right: 8px;
+                vertical-align: top; }
+              .reserve_write .write .table-wrap .table tbody tr td.captcha .form-group {
+                display: inline-block;
+                width: 160px; }
+                .reserve_write .write .table-wrap .table tbody tr td.captcha .form-group .form-control {
+                  width: 160px; } }
+          @media (min-width: 768px) {
+            .reserve_write .write .table-wrap .table tbody tr td {
+              padding-top: 10px;
+              padding-bottom: 10px; } }
+        .reserve_write .write .table-wrap .table tbody tr:first-child th {
+          padding-top: 15px; }
+          @media (min-width: 768px) {
+            .reserve_write .write .table-wrap .table tbody tr:first-child th {
+              padding-top: 35px; } }
+        .reserve_write .write .table-wrap .table tbody tr:first-child td {
+          padding-top: 15px; }
+          @media (min-width: 768px) {
+            .reserve_write .write .table-wrap .table tbody tr:first-child td {
+              padding-top: 40px; } }
+        .reserve_write .write .table-wrap .table tbody tr:last-child td {
+          padding-bottom: 20px; }
+          @media (min-width: 768px) {
+            .reserve_write .write .table-wrap .table tbody tr:last-child td {
+              padding-bottom: 40px; } }
+    .reserve_write .write .btn-area {
+      margin-top: 40px; }
+      .reserve_write .write .btn-area p {
+        text-align: center; }
+        .reserve_write .write .btn-area p .btn-gray {
+          width: 300px;
+          height: 40px;
+          font-size: 11px;
+          color: #fff;
+          line-height: 40px;
+          border: 0;
+          background-color: #666; }
+      @media (min-width: 768px) {
+        .reserve_write .write .btn-area {
+          margin-top: 60px; }
+          .reserve_write .write .btn-area p .btn-gray {
+            width: 170px; } }
+
+/*# sourceMappingURL=reservation.css.map */
