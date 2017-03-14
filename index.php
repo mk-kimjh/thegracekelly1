@@ -36,7 +36,7 @@
                             <section class="location">
                                 <header>
                                     <h4>LOCATION</h4>
-                                    <a class="more" href="#"><span class="sr-only">더보기</span></a>
+                                    <a class="more" href="/location/map.php"><span class="sr-only">더보기</span></a>
                                 </header>
                                 <div class="map">
                                     <p>맵영역</p>
@@ -46,8 +46,8 @@
                         <div class="col-xs-12 col-sm-6">
                             <section class="news">
                                 <header>
-                                    <h4>NEWS &amp; EVENT</h4>
-                                    <a class="more" href="#"><span class="sr-only">더보기</span></a>
+                                    <h4>RESERVATION</h4>
+                                    <a class="more" href="/reservation/reserve_write.php"><span class="sr-only">더보기</span></a>
                                 </header>
                                 <ul>
                                     <li><a href="#">연말 행사안내</a></li>
@@ -65,8 +65,8 @@
                         <div class="col-xs-12 col-sm-6">
                             <section class="space">
                                 <header>
-                                    <h4>SPACE</h4>
-                                    <a class="more" href="#"><span class="sr-only">더보기</span></a>
+                                    <h4>HOUSE WEDDING</h4>
+                                    <a class="more" href="/house/wedding.php"><span class="sr-only">더보기</span></a>
                                 </header>
                                 <ul class="slider">
                                     <li><a href="#"><img class="img-responsive" src="/assets/images/main/img_space_1_xs.jpg" alt=""></a></li>
@@ -79,8 +79,8 @@
                         <div class="col-xs-12 col-sm-6">
                             <section class="party">
                                 <header>
-                                    <h4>PARTY &amp; WEDDING</h4>
-                                    <a class="more" href="#"><span class="sr-only">더보기</span></a>
+                                    <h4>PARTY</h4>
+                                    <a class="more" href="/special/party.php"><span class="sr-only">더보기</span></a>
                                 </header>
                                 <ul class="slider">
                                     <li><a href="#"><img class="img-responsive" src="/assets/images/main/img_party_1_xs.jpg" alt=""></a></li>

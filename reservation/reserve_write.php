@@ -7,12 +7,12 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <main class="content">
         <div class="container">
-            <!-- page-header -->
-            <div class="page-header">
-                <h2>RESERVATION</h2>
-                <p>원하시는 서비스에 친절한 안내를 받으실 수 있습니다</p>
-            </div>
             <article class="reserve_write">
+                <!-- page-header -->
+                <div class="page-header">
+                    <h2>RESERVATION</h2>
+                    <p>원하시는 서비스에 친절한 안내를 받으실 수 있습니다</p>
+                </div>
                 <form action="#">
                     <div class="service-info">
                         <div class="service">

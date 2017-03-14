@@ -15,13 +15,12 @@
                 <!-- 디자인이 변경될수 있으므로 스타일은 적용하지 않음 -->
                 <nav class="nav-tabs menu-list">
                     <ul>
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">6</a></li>
-                        <li><a href="#">7</a></li>
+                        <li class="active"><a href="#">HOUSE WEDDING</a></li>
+                        <li><a href="#">PHOTO TABLE</a></li>
+                        <li><a href="#">COURSE</a></li>
+                        <li><a href="#">BUFFET</a></li>
+                        <li><a href="#">BRIDE ROOM</a></li>
+                        <li><a href="#">BUSINESS/SPECIAL PARTY</a></li>
                     </ul>
                 </nav>
                 <div class="image-list">
