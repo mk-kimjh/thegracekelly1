@@ -23,22 +23,22 @@
     <div class="container">
         <ul class="row">
             <li class="col-md-2 active">
-                <a href="#">KEELY IS<span></span></a>
+                <a href="/kelly/kelly_is.php">KEELY IS<span></span></a>
             </li>
             <li class="col-md-2">
-                <a href="#">SERIVCES<span></span></a>
+                <a href="/house/wedding.php">HOUSE WEDDING<span></span></a>
             </li>
             <li class="col-md-2">
-                <a href="#">SPACE<span></span></a>
+                <a href="/special/party.php">SPECIAL PARTY<span></span></a>
             </li>
             <li class="col-md-2">
-                <a href="#">NEWS &amp; EVENT<span></span></a>
+                <a href="/gallery/gallery_list.php">GALLERY<span></span></a>
             </li>
             <li class="col-md-2">
-                <a href="#">RESERVATION<span></span></a>
+                <a href="/movie/video.php">MOVIE<span></span></a>
             </li>
             <li class="col-md-2">
-                <a href="#">LOCATION<span></span></a>
+                <a href="/location/map.php">LOCATION<span></span></a>
             </li>
         </ul>
     </div>
@@ -52,22 +52,22 @@
         <div class="aside-body">
             <ul class="gnb">
                 <li>
-                    <a href="#">KEELY IS</a>
+                    <a href="/kelly/kelly_is.php">KEELY IS</a>
                 </li>
                 <li class="active">
-                    <a href="#">SERIVCES</a>
+                    <a href="/house/wedding.php">HOUSE WEDDING</a>
                 </li>
                 <li>
-                    <a href="#">SPACE</a>
+                    <a href="/special/party.php">SPECIAL PARTY</a>
                 </li>
                 <li>
-                    <a href="#">NEWS &amp; EVENT</a>
+                    <a href="/gallery/gallery_list.php">GALLERY</a>
                 </li>
                 <li>
-                    <a href="#">RESERVATION</a>
+                    <a href="/movie/video.php">MOVIE</a>
                 </li>
                 <li>
-                    <a href="#">LOCATION</a>
+                    <a href="/location/map.php">LOCATION</a>
                 </li>
             </ul>
         </div>

@@ -61,83 +61,85 @@
                 </ul>
                 <div class="sub-gallery">
                     <h3 class="sub-title">HOUSE WEDDING<br class="visible-xs"> GALLERY</h3>
-                    <ul class="sub-gallery-list">
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img01.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img02.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img03.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img04.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img05.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img06.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img07.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img08.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img09.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img10.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img11.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img12.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img13.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img14.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img15.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                    </ul>
+                    <a href="/gallery/gallery_list.php">
+                        <ul class="sub-gallery-list">
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img01.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img02.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img03.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img04.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img05.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img06.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img07.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img08.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img09.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img10.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img11.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img12.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img13.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img14.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img15.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                        </ul>
+                    </a>
                 </div>
             </article>
         </div>

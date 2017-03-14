@@ -41,7 +41,7 @@
                                             자연과 함께 어울어진 이곳에서 친구들과 특별한 추억을<br class="visible-xs"> 만들어드립니다.<br class="hidden-xs"> 감각적인 스타일링으로 브라이덜 파티를 연출해 드리겠습니다.
                                         </p>
                                         <p class="btn-basic">
-                                            <a href="#" class="btn btn-gold" role="button">문의 바로가기</a>
+                                            <a href="/reservation/reserve_write.php" class="btn btn-gold" role="button">문의 바로가기</a>
                                         </p>
                                     </div>
                                 </div>
@@ -63,7 +63,7 @@
                                             The Grace Kelly가 두 분의 소중한 시간을 잊지못할 기억으로 만들어 드리겠습니다.
                                         </p>
                                         <p class="btn-basic">
-                                            <a href="#" class="btn btn-gold" role="button">문의 바로가기</a>
+                                            <a href="/reservation/reserve_write.php" class="btn btn-gold" role="button">문의 바로가기</a>
                                         </p>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@
                                             The Grace Kelly의 전문디렉터와 함께 정형화된 비즈니스 파티에서 벗어나,<br class="hidden-xs"> 기업의 이념과 성향을 파악하여 고급스러운 비즈니스파티를 연출해드립니다.
                                         </p>
                                         <p class="btn-basic">
-                                            <a href="#" class="btn btn-gold" role="button">문의 바로가기</a>
+                                            <a href="/reservation/reserve_write.php" class="btn btn-gold" role="button">문의 바로가기</a>
                                         </p>
                                     </div>
                                 </div>
@@ -105,7 +105,7 @@
                                             드라마, 브랜드 런칭쇼등 고급브랜드 대관으로<br> 사용 할 수 있도록 The Grace Kelly가 함께합니다.
                                         </p>
                                         <p class="btn-basic">
-                                            <a href="#" class="btn btn-gold" role="button">문의 바로가기</a>
+                                            <a href="/reservation/reserve_write.php" class="btn btn-gold" role="button">문의 바로가기</a>
                                         </p>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@
                                             The Grace Kelly에서 전통 혼례 전문디렉터와 함께 한국의 문화를<br class="hidden-xs"> 체험할 수 있는 아름다운 전통혼례를 연출해 드립니다
                                         </p>
                                         <p class="btn-basic">
-                                            <a href="#" class="btn btn-gold" role="button">문의 바로가기</a>
+                                            <a href="/reservation/reserve_write.php" class="btn btn-gold" role="button">문의 바로가기</a>
                                         </p>
                                     </div>
                                 </div>
@@ -136,83 +136,85 @@
                 </div>
                 <div class="sub-gallery">
                     <h3 class="sub-title">SPECIAL PARTY<br class="visible-xs"> GALLERY</h3>
-                    <ul class="sub-gallery-list">
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img01.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img02.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img03.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img04.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img05.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img06.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img07.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img08.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img09.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img10.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img11.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img12.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img13.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img14.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="/assets/images/sub/sub_gallery_img15.jpg" class="img-responsive" alt="">
-                            </figure>
-                        </li>
-                    </ul>
+                    <a href="/gallery/gallery_list.php">
+                        <ul class="sub-gallery-list">
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img01.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img02.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img03.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img04.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img05.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img06.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img07.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img08.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img09.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img10.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img11.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img12.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img13.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img14.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/sub/sub_gallery_img15.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </li>
+                        </ul>
+                    </a>
                 </div>
             </article>
         </div>
