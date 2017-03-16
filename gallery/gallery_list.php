@@ -17,7 +17,6 @@
                     <ul>
                         <li class="active"><a href="#">HOUSE WEDDING</a></li>
                         <li><a href="#">PHOTO TABLE</a></li>
-                        <li><a href="#">COURSE</a></li>
                         <li><a href="#">BUFFET</a></li>
                         <li><a href="#">BRIDE ROOM</a></li>
                         <li><a href="#">BUSINESS/SPECIAL PARTY</a></li>

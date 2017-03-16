@@ -8,17 +8,34 @@
             <div class="row">
                 <div class="col-xs-12 col-md-6">
                     <div class="about">
-                        <a href="#">
-                            <p class="visible-md visible-lg">
-                                <img class="img-responsive" src="/assets/images/main/img_about_lg.jpg" alt="">
-                            </p>
-                            <p class="visible-sm">
-                                <img class="img-responsive" src="/assets/images/main/img_about_sm.jpg" alt="">
-                            </p>
-                            <p class="visible-xs">
-                                <img class="img-responsive" src="/assets/images/main/img_about_xs.jpg" alt="">
-                            </p>
-                        </a>
+                        <ul class="kellyis-slide">
+                            <li>
+                                <a href="#">
+                                    <p class="visible-md visible-lg">
+                                        <img class="img-responsive" src="/assets/images/main/img_kellyis_lg.jpg" alt="">
+                                    </p>
+                                    <p class="visible-sm">
+                                        <img class="img-responsive" src="/assets/images/main/img_kellyis_sm.jpg" alt="">
+                                    </p>
+                                    <p class="visible-xs">
+                                        <img class="img-responsive" src="/assets/images/main/img_kellyis_xs.jpg" alt="">
+                                    </p>
+                                </a>    
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p class="visible-md visible-lg">
+                                        <img class="img-responsive" src="/assets/images/main/img_kellyis_lg.jpg" alt="">
+                                    </p>
+                                    <p class="visible-sm">
+                                        <img class="img-responsive" src="/assets/images/main/img_kellyis_sm.jpg" alt="">
+                                    </p>
+                                    <p class="visible-xs">
+                                        <img class="img-responsive" src="/assets/images/main/img_kellyis_xs.jpg" alt="">
+                                    </p>
+                                </a>    
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6">
@@ -107,6 +124,13 @@
                 }
             });
             $('.party .slider').bxSlider({
+                controls: false,
+                buildPager: function(slideIndex) {
+                    return "<span class='sr-only'>"+(slideIndex+1)+"</span>";
+                }
+            });
+            $('.about .kellyis-slide').bxSlider({
+                auto: true,
                 controls: false,
                 buildPager: function(slideIndex) {
                     return "<span class='sr-only'>"+(slideIndex+1)+"</span>";

@@ -12,15 +12,15 @@
                 <p>원하시는 서비스에 친절한 안내를 받으실 수 있습니다</p>
             </div>
             <article class="map">
-                <p class="maps">
+                <div class="maps" id="maps" style="min-height:400px;">
                     <img src="/assets/images/location/map_img.jpg" class="img-responsive" alt="map">
-                </p>
+                </div>
                 <div class="table-wrap">
                     <table class="table table-bordered">
                         <tbody>
                             <tr>
                                 <th>주소</th>
-                                <td>서울 강남구 언주로 126길 23<br>(논현동 247-4호)</td>
+                                <td>서울 강남구 언주로 126길 23<br>(논현동 247-4번지)</td>
                             </tr>
                             <tr>
                                 <th>지하철</th>
@@ -125,7 +125,7 @@
                             </tr>
                             <tr>
                                 <th>팩 스</th>
-                                <td>02 - 547 - 3388</td>
+                                <td>02 - 547 - 3383</td>
                             </tr>
                         </tbody>
                     </table>
@@ -135,5 +135,48 @@
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhnrBd9nn0idjWvb210O0Up6etCTHQjYU&signed_in=true&callback=google_init"></script>
+	<script>
+	var geocoder;
+	var map;
+	function google_init() {
+		geocoder = new google.maps.Geocoder();
+		var myLatlng = new google.maps.LatLng('>', '');
+		var myOptions = {
+			zoom: 17,
+			center: myLatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		}
+
+		var map = new google.maps.Map(document.getElementById("maps"), myOptions);
+
+		var image = "";
+
+		var marker = new google.maps.Marker({
+			position: myLatlng, 
+			map: map,
+			icon: image
+		});
+
+		
+		var address = "서울특별시 강남구 논현동 247-4";
+		geocoder.geocode( { 'address': address}, function(results, status) {
+			if (status == google.maps.GeocoderStatus.OK) {
+				map.setCenter(results[0].geometry.location);
+				var marker = new google.maps.Marker({
+					map: map, 
+					position: results[0].geometry.location,
+					icon: image
+				});
+			} else {
+				alert("Geocode was not successful for the following reason: " + status);
+			}
+		});
+	}
+
+	window.onload = function(){
+		google_init();
+	}
+	</script>
 </body>
 </html>
