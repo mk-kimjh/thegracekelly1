@@ -51,10 +51,44 @@
 #content .about {
     @media (min-width: $md) {
         overflow: hidden;
-        height: 300px;
     }
-    @media (min-width: $lg) {
-        height: 378px;
+    .bx-wrapper {
+        .bx-viewport {
+            .kellyis-slide {
+                li {
+                    a {
+                        .img-responsive {
+                            @media (min-width: $md) {
+                                height: 378px;
+                            }
+                            @media (min-width: $lg) {
+                                height: 378px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bx-controls {
+            margin-top: 15px;
+            .bx-pager {
+                float: right;
+                .bx-pager-item {
+                    float: left;
+                    .bx-pager-link {
+                        display: block;
+                        margin-left: 5px;
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 50%;
+                        background-color: rgba(#000, .2);
+                        &.active {
+                            background-color: rgba(#000, 1);
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

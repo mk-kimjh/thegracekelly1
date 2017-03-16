@@ -24,7 +24,6 @@
     @media(min-width: $md) {
         padding-bottom: 100px;
     }
-    //tab-menu 스타일은 디자인에 따라 변경됨 스타일적용 무
     .menu-list {
         border-bottom: 0;
         margin-bottom: 35px;
@@ -77,11 +76,17 @@
                         width: 164px;
                         margin-left: 0;
                     }
+                    @media(min-width: $md) {
+                        width: 223px;
+                    }
                 }
                 &:nth-of-type(2) {
                     width: 120px;
                     @media(min-width: $sm) {
                         width: 164px;
+                    }
+                    @media(min-width: $md) {
+                        width: 223px;
                     }
                 }
                 &:nth-of-type(3) {
@@ -89,24 +94,27 @@
                     @media(min-width: $sm) {
                         width: 172px;
                     }
+                    @media(min-width: $md) {
+                        width: 223px;
+                    }
                 }
                 &:nth-of-type(4) {
                     width: 83px;
                     @media(min-width: $sm) {
                         width: 180px;
                     }
-                }
-                &:nth-of-type(5) {
-                    width: 93px;
-                    @media(min-width: $sm) {
-                        width: 187px;
+                    @media(min-width: $md) {
+                        width: 223px;
                     }
                 }
-                &:nth-of-type(6) {
+                &:nth-of-type(5) {
                     width: 163px;
                     @media(min-width: $sm) {
                         width: 245px;
                         margin-right: 0;
+                    }
+                    @media(min-width: $md) {
+                        width: 235px;
                     }
                 }
             }

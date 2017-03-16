@@ -39,11 +39,28 @@
 
 @media (min-width: 992px) {
   #content .about {
-    overflow: hidden;
-    height: 300px; } }
-@media (min-width: 1280px) {
-  #content .about {
+    overflow: hidden; } }
+@media (min-width: 992px) {
+  #content .about .bx-wrapper .bx-viewport .kellyis-slide li a .img-responsive {
     height: 378px; } }
+@media (min-width: 1280px) {
+  #content .about .bx-wrapper .bx-viewport .kellyis-slide li a .img-responsive {
+    height: 378px; } }
+#content .about .bx-wrapper .bx-controls {
+  margin-top: 15px; }
+  #content .about .bx-wrapper .bx-controls .bx-pager {
+    float: right; }
+    #content .about .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+      float: left; }
+      #content .about .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pager-link {
+        display: block;
+        margin-left: 5px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.2); }
+        #content .about .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pager-link.active {
+          background-color: black; }
 
 #content .video {
   margin-top: 10px; }
